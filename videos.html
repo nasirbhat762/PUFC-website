@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lato:wght@900&family=Mukta:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line1 {
+
+        height: fit-content;
+        background-color: black;
+        display: flex;
+        justify-content: right;
+    }
+
+    .logo {
+        background-color: white;
+
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        background-color: white;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+   
+    .linkbox {
+        background-color: black;
+
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+
+    }
+
+    .linkbox a {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(13, 138, 240);
+        font-size: 80%;
+        width: fit-content;
+        border: 2px solid black;
+        border-radius: 3px;
+        font-family: 'Lato', sans-serif;
+    }
+    .linkbox a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 100px;
+        row-gap: 30px;
+        justify-content: center;
+        padding: 20px 0px;
+
+    }
+    .video{
+        width: fit-content;
+    }
+
+    .video p {
+        width: 300px;
+        font-family: 'Mukta', sans-serif;
+        text-align: center;
+    }
+    </style>
+<body>
+    <div class="header">
+        <div class="line1">
+            <a href="https://www.facebook.com/panthersunited2020" target="_blank"><img src="logos/fb.jpg" alt="facebook" width="30px"></a>
+            <a href="https://instagram.com/panthersunitedfc2020?igshid=ZDdkNTZiNTM=" target="_blank"><img src="logos/insta.jpg" alt="instagram" width="30px"></a>
+            <a href="https://www.youtube.com/channel/UCBSU5n0RXkB7SjP_CDAhIsw" target="_blank"><img src="logos/youtube.jpg" alt="youtube" width="30px"></a>
+        </div>
+        <div class="logo">
+            <a href="#"><img src="logos/logo.png" alt="logo" width="200px"></a>
+        </div>
+        <div class="name">PANTHERS UNITED FC</div>
+
+        <div class="linkbox">
+            <a href="index.html">HOME</a>
+            <a href="management.html">MANAGEMENT</a>
+            <a href="players.html">PLAYERS</a>
+            <a href="academy.html">ACADEMY</a>
+            <a href="images.html">IMAGES</a>
+            <a href="videos.html">VIDEOS</a>
+            <a href="store.html">STORE</a>
+
+        </div>
+
+    </div>
+
+    <div class="main">
+
+        <div class="video">
+            <iframe width="300px" height="200px" src="https://www.youtube.com/embed/kn--mDx3XwU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Free style by Hanan</p>
+        </div>
+        <div class="video"> 
+            <iframe width="300px" height="200px" src="https://www.youtube.com/embed/f0ToiWVOZAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Jinga by Furqaan and Sajid</p>
+        </div>
+        <div class="video">
+            <iframe width="300px" height="200px" src="https://www.youtube.com/embed/yhUvhzojYPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Team goal at Gund Jahangir</p>
+        </div>
+        <div class="video">
+            <iframe width="300px" height="200px" src="https://www.youtube.com/embed/w1Nmf7n2CLY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Short match clip at home ground</p>
+        </div>
+        <div class="video">
+            <iframe width="300px" height="200px" src="https://www.youtube.com/embed/z_mGPJMS5uA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Training with parachute </p>
+        </div>
+    </div>
+</body>
+</html>

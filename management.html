@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lato:wght@900&family=Mukta:wght@700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>management</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line1 {
+
+        height: fit-content;
+        background-color: black;
+        display: flex;
+        justify-content: right;
+    }
+
+    .logo {
+        background-color: white;
+
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+    }
+
+    .name {
+        background-color: white;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+
+    .linkbox {
+        background-color: black;
+
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: sticky;
+        top: 0;
+
+    }
+
+    .linkbox a {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(13, 138, 240);
+        font-size: 80%;
+        width: fit-content;
+        border: 2px solid black;
+        border-radius: 3px;
+        font-family: 'Lato', sans-serif;
+    }
+    .linkbox a:hover{
+        color: black;
+        background-color: white;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 300px;
+        row-gap: 30px;
+        justify-content: center;
+        padding: 20px 0px;
+
+    }
+
+    .image {
+        width: fit-content;
+    }
+
+    .image p {
+        width: 200px;
+        text-align: justify;
+        font-family: 'Mukta', sans-serif;
+    }
+
+
+
+
+
+
+
+    .lastNote{
+
+        height: fit-content;
+        text-align: center;
+        
+        background-color: black;
+        color: white;
+
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <div class="header">
+            <div class="line1">
+                <a href="https://www.facebook.com/panthersunited2020" target="_blank"><img src="logos/fb.jpg" alt="facebook" width="30px"></a>
+                <a href="https://instagram.com/panthersunitedfc2020?igshid=ZDdkNTZiNTM=" target="_blank"><img src="logos/insta.jpg" alt="instagram" width="30px"></a>
+                <a href="https://www.youtube.com/channel/UCBSU5n0RXkB7SjP_CDAhIsw" target="_blank"><img src="logos/youtube.jpg" alt="youtube" width="30px"></a>
+            </div>
+            <div class="logo">
+                <a href="#"><img src="logos/logo.png" alt="logo" width="200px"></a>
+            </div>
+            <div class="name">PANTHERS UNITED FC</div>
+
+            <div class="linkbox">
+                <a href="index.html">HOME</a>
+                <a href="management.html">MANAGEMENT</a>
+                <a href="players.html">PLAYERS</a>
+                <a href="academy.html">ACADEMY</a>
+                <a href="images.html">IMAGES</a>
+                <a href="videos.html">VIDEOS</a>
+                <a href="store.html">STORE</a>
+
+            </div>
+
+        </div>
+        <div class="main">
+
+            <div class="image"> <img src="managementPhotos/hilal.jpg" alt="hilal " width="200px">
+                <p>Mr. HILAL WANI is a Manager of our club. He is young and energetic man who guides players on and off
+                    the field with his experience of the game. His never ending demand from players makes him the best
+                    at his business and pushes the players to achieve more and more on the field.He also handles the
+                    financial account of our club.</p>
+            </div>
+
+            <div class="image"> <img src="managementPhotos/nazir.jpg" alt="nazir " width="200px">
+                <p>Mr. NAZIR AHMAD is a Deputy Manager of our club. Being a passionate sports man and star player of his
+                    era, he always promotes sports in our area and supports our club both socially and financially.
+                    He is always there to support and handle any type of problem which arises in our club.</p>
+            </div>
+
+            <div class="image"> <img src="managementPhotos/abid wani.jpg" alt="nazir " width="200px">
+                <p>Mr. ABID MANZOOR MALLA is another young and energetic person who supported our club from
+                    the early days. Being a sports person himself he always tries to forward his experience with
+                    members of the club.</p>
+            </div>
+
+            <div class="image"> <img src="managementPhotos/hameed.jpg" alt="nazir " width="200px">
+                <p>Mr. HAMEED RASOOL Secretary of our club. He is the one who supported our club from early days.</p>
+            </div>
+
+            <div class="image"> <img src="managementPhotos/rizwan.JPG" alt="nazir " width="200px">
+                <p>Mr. RIZWAN one of the founding members of the club who supported the club during
+                    early difficult days. He is also our first financial supporter.</p>
+            </div>
+            <div class="image"> <img src="managementPhotos/saqui.jpg" alt="nazir " width="200px" height="300px">
+                <p>Mr. KZ SAQUI is also member of management. He manages all of our events and matches.</p>
+            </div>
+            <div class="image"> <img src="managementPhotos/rasheed.jpg" alt="nazir " width="200px">
+                <p>Mr. ABDUL RASHEED RESHI is a die hard supporter of our club.</p>
+            </div>
+        </div>
+        <p class="lastNote">There are many well wishers of the club who supported the club during hard times but due to lack of data we
+            cannot mention all of them.</p>
+</body>
+
+</html>

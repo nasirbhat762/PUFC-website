@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Lato:wght@900&family=Mukta:wght@700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line1 {
+
+        height: fit-content;
+        background-color: black;
+        display: flex;
+        justify-content: right;
+
+    }
+
+    .logo {
+        background-color: white;
+
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .name {
+        background-color: white;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .news {
+        background-color: black;
+        color: white;
+        overflow: hidden;
+        font-family: 'Mukta', sans-serif;
+
+    }
+
+    .news p {
+
+        display: inline-block;
+        animation: slider 15s linear 0s infinite;
+
+    }
+
+    @keyframes slider {
+        from {
+            transform: translateX(99vw);
+        }
+
+        to {
+            transform: translateX(-62vw);
+        }
+
+    }
+
+    .linkbox {
+        background-color: black;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .linkbox a {
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(13, 138, 240);
+        font-size: 80%;
+        width: fit-content;
+        border: 2px solid black;
+        border-radius: 3px;
+        font-family: 'Lato', sans-serif;
+
+
+    }
+
+    .linkbox a:hover {
+        color: black;
+        background-color: white;
+    }
+
+    .caroslider {
+        margin: 0 20vw;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .description {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .description p {
+        width: 59vw;
+        text-align: justify;
+        font-family: 'Mukta', sans-serif;
+    }
+
+    .title {
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        font-size: larger;
+    }
+
+    .titles {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 270px;
+        row-gap: 50px;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+    }
+
+    .title1 {
+        width: fit-content;
+
+    }
+
+    .title2 {
+        width: fit-content;
+
+    }
+
+
+    .footer {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        column-gap: 0px;
+        align-items: center;
+    }
+
+    .followus {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        font-size: larger;
+    }
+
+    .sponsors {
+        background-color: black;
+        color: white;
+
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+        font-size: larger;
+    }
+
+    .address {
+        background-color: black;
+        color: white;
+        font-size: small;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+
+    }
+
+    .copyright {
+        background-color: black;
+        color: white;
+        font-size: smaller;
+        text-align: center;
+        font-family: 'Mukta', sans-serif;
+
+    }
+</style>
+
+<body>
+    <!-- header logo upto links -->
+    <div class="header">
+        <div class="line1">
+            <a href="https://www.facebook.com/panthersunited2020" target="_blank"><img src="logos/fb.jpg" alt="facebook"
+                    width="30px"></a>
+            <a href="https://instagram.com/panthersunitedfc2020?igshid=ZDdkNTZiNTM=" target="_blank"><img
+                    src="logos/insta.jpg" alt="instagram" width="30px"></a>
+            <a href="https://www.youtube.com/channel/UCBSU5n0RXkB7SjP_CDAhIsw" target="_blank"><img
+                    src="logos/youtube.jpg" alt="youtube" width="30px"></a>
+        </div>
+        <div class="logo">
+            <a href="#"><img src="logos/logo.png" alt="logo" width="200px"></a>
+        </div>
+        <div class="name">PANTHERS UNITED FC</div>
+
+
+        <!-- match news  -->
+        <div class="news">
+            <p> No match scheduled right now</p>
+        </div>
+
+        <div class="linkbox">
+            <a href="index.html">HOME</a>
+            <a href="management.html">MANAGEMENT</a>
+            <a href="players.html">PLAYERS</a>
+            <a href="academy.html">ACADEMY</a>
+            <a href="images.html">IMAGES</a>
+            <a href="videos.html">VIDEOS</a>
+            <a href="store.html">STORE</a>
+
+        </div>
+
+    </div>
+    <!-- main  body  -->
+</body>
+<div class="main">
+
+    <div class="caroslider">
+
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
+                    aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
+                    aria-label="Slide 8"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="photos/photo1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo5.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo6.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo7.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="photos/photo8.jpg" class="d-block w-100" alt="...">
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </div>
+
+    <div class="description">
+        <p>
+            PANTHERS UNITED FC IS A PROFESSIONAL FOOTBALL CLUB LOCATED IN DISTRICT BANDIPORA WHICH WAS
+            ESTABLISHED IN DECEMBER 2020, OUR AIM IS TO NURTURE YOUNG TALENT AT GRASS ROOT LEVEL AND GIVE
+            THESE YOUNG ONES THE PLATFORM TO SHOW WHAT THEY ARE CAPABLE OF DOING IN THE FIELD OF
+            SPORTS.BESIDES THAT OUR INITIATIVE ALSO KEEPS FOCUS ON THE SOCIAL AND ENVIRONMENTAL ISSUES. WE
+            TRY TO KEEP YOUNG ONES AWAY FROM THE EVILS OF SOCIETY AND GUIDE THEM TOWARDS BUILDING A
+            SUCCESSSFUL CAREER.
+        </p>
+    </div>
+    <hr>
+    <p class="title">TITLES</p>
+    <div class="titles">
+
+        <div class="title1">
+
+            <img src="titles/title1.png" alt="title1" width="300px">
+            <p>GUND JAHANGIR FEDERATION Football Cup 2022</p>
+        </div>
+        <div class="title2">
+            <img src="titles/title2.png" alt="title2" width="300px">
+            <p>Late Irshad Memorial 2021(Runners up) </p>
+        </div>
+
+    </div>
+
+    <!-- footer  -->
+    <div class="footer">
+        <div class="followus">
+            <p>FOLLOW US</p>
+            <a href="https://www.facebook.com/panthersunited2020" target="_blank"><img src="logos/fb.jpg" alt="facebook"
+                    width="30px"></a>
+            <a href="https://instagram.com/panthersunitedfc2020?igshid=ZDdkNTZiNTM=" target="_blank"><img
+                    src="logos/insta.jpg" alt="instagram" width="30px"></a>
+            <a href="https://www.youtube.com/channel/UCBSU5n0RXkB7SjP_CDAhIsw" target="_blank"><img
+                    src="logos/youtube.jpg" alt="youtube" width="30px"></a>
+
+        </div>
+        <div class="sponsors">
+            <p>SPONSORS</p>
+            <a href="https://foodhung.com/" target="_blank"> <img src="logos/foodhung.png" alt="foodHung"
+                    width="30px"></a>
+            <a href="https://www.facebook.com/esteemmotors.pvt.ltd" target="_blank"> <img src="logos/esteemmotors.png"
+                    alt="Esteem Motors" width="30px"></a>
+        </div>
+        <div class="address">
+            <p>
+                Address: Ayathmulla Bandipora(193502) Jammu and Kashmir <br>
+                Email : panthersunitedfc2023@gmail.com <br>
+                Tel : 7006159560/9622777384
+            </p>
+        </div>
+        <div class="copyright">
+            <p>Panthers United FC &copy; All rights reserved</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    </body>
+
+</html>
